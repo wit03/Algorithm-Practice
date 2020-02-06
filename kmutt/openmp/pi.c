@@ -38,7 +38,9 @@ int main() {
     }
     double time = omp_get_wtime() - start_time;
     printf("%f \n", pi);
+    printf("Took: ");
     printf("%f", time);
+    printf(" Sec.");
     
 
 }
